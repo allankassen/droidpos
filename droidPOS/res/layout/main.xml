@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="fill">
+    
+    <ImageButton android:id="@+id/one"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignParentLeft="true"
+    		android:layout_marginTop="10px"
+    		android:layout_marginLeft="5px"
+    		android:src="@drawable/icon_product" />
+    		
+    <TextView android:layout_width="wrap_content" 
+    		  android:layout_height="wrap_content" 
+    		  android:layout_marginLeft="25px"
+    		  android:id="@+id/txtProduct" 
+    		  android:text="Products"     		 
+    		  android:layout_below="@+id/one"  />
+    		
+    <ImageButton android:id="@+id/two"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignTop="@id/one"
+    		android:layout_toRightOf="@id/one"
+    		android:layout_marginLeft="5px"
+    		android:textSize="25px"
+    		android:src="@drawable/icon_stock" />
+    		
+    <TextView android:layout_width="wrap_content" 
+    		  android:layout_height="wrap_content"
+    		  android:id="@+id/txtStocks" 
+    		  android:text="Stocks"     		  
+    		  android:layout_below="@id/two" 
+    		  android:layout_marginLeft="30px"
+    		  android:layout_alignLeft="@id/two" />
+    		
+    <ImageButton android:id="@+id/three"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignTop="@id/two"
+    		android:layout_toRightOf="@id/two"
+    		android:layout_marginLeft="5px"
+    		android:padding="0px"    		
+    		android:src="@drawable/icon_sales" />
+    		
+    <ImageButton android:id="@+id/four"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignParentLeft="true"
+    		android:layout_below="@id/one"
+    		android:layout_marginLeft="5px"
+    		android:layout_marginTop="25px"    		
+    		android:src="@drawable/icon_utilities" />
+    		
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textView4" android:layout_below="@+id/four" android:layout_alignLeft="@+id/four" android:layout_alignRight="@+id/four"></TextView>
+    		
+    <ImageButton android:id="@+id/five"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignTop="@id/four"
+    		android:layout_toRightOf="@id/four"
+    		android:layout_marginLeft="5px"
+    		android:textSize="25px"
+    		android:src="@drawable/icon_user" />
+    		
+    <ImageButton android:id="@+id/six"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignTop="@id/five"
+    		android:layout_toRightOf="@id/five"
+    		android:layout_marginLeft="5px"
+    		android:textSize="25px"
+    		android:src="@drawable/icon_zone" />
+    <TextView android:layout_width="wrap_content" android:layout_above="@+id/six" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textView3" android:layout_alignLeft="@+id/six" android:layout_alignRight="@+id/six"></TextView>
+    		
+    <ImageButton android:id="@+id/seven"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignParentLeft="true"
+    		android:layout_below="@id/four"
+    		android:layout_marginTop="20px"
+    		android:layout_marginLeft="5px"
+    		android:textSize="25px"
+    		android:src="@drawable/icon_cash" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_below="@+id/seven" android:id="@+id/textView7" android:layout_alignLeft="@+id/seven" android:layout_alignRight="@+id/seven"></TextView>
+    		
+    <ImageButton android:id="@+id/eight"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignTop="@id/seven"
+    		android:layout_toRightOf="@id/seven"
+    		android:layout_marginLeft="5px"
+    		android:textSize="25px"
+    		android:src="@drawable/icon_inventory" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_below="@+id/eight" android:id="@+id/textView8" android:layout_alignLeft="@+id/eight" android:layout_alignRight="@+id/eight"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_above="@+id/eight" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textView5" android:layout_alignLeft="@+id/eight" android:layout_alignRight="@+id/eight"></TextView>
+    		
+    <ImageButton android:id="@+id/nine"
+    		android:layout_height="100px"
+    		android:layout_width="100px"
+    		android:layout_alignTop="@id/eight"
+    		android:layout_toRightOf="@id/eight"
+    		android:layout_marginLeft="5px"
+    		android:textSize="25px"
+    		android:src="@drawable/icon_help" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_below="@+id/nine" android:id="@+id/textView9" android:layout_alignLeft="@+id/nine" android:layout_alignRight="@+id/nine"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_above="@+id/nine" android:layout_height="wrap_content" android:text="TextView" android:id="@+id/textView6" android:layout_alignLeft="@+id/nine" android:layout_alignRight="@+id/nine"></TextView>
+    
+</RelativeLayout>
