@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">AndroidPOS</string>
+    
+    <string name="main_menu">Close Application</string>
+    
+    <string name="product_contextmenu_title">Products</string>   
+    <string name="product_show_title">Show All</string>
+    <string name="product_add_title">Add Product</string>
+    <string name="product_edit_title">Edit Product</string>
+    <string name="product_delete_title">Delete Product</string>
+    <string name="product_find_title">Find Product</string>
+    
+    <string name="stock_show_title">View stock</string>
+    <string name="stock_manage_title">stock</string>
+</resources>
