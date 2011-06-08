@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item android:id="@+id/product_show" 
+		  android:title="@string/product_show_title" />
+		  
+	<item android:id="@+id/product_add"
+		  android:title="@string/product_add_title"	/>	
+		  
+	<item android:id="@+id/product_edit"
+		  android:title="@string/product_edit_title" />
+		  
+	<item android:id="@+id/product_delete"
+		  android:title="@string/product_delete_title" />
+	
+	<item android:id="@+id/product_find"
+		  android:title="@string/product_find_title" />		  
+
+</menu>
