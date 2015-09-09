@@ -1,0 +1,1 @@
+Android POS application for google developper challenge
